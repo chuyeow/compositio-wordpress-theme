@@ -172,12 +172,8 @@ a:focus { outline: none; outline: 0; }
 .comments-form input.formemail { border: 1px solid #BDD07E; background: #fff url(images/form-email-bkg.png) no-repeat left; padding: 5px 5px 5px 40px;}
 .comments-form input.formuri { border: 1px solid #BDD07E; background: #fff url(images/form-uri-bkg.png) no-repeat left; padding: 5px 5px 5px 40px;}
 
-.comments-form textarea { border: 1px solid #a8d3e4; background: #fff; padding: 4px; width: 97%; }
-.comments-form .button { border: 1px solid #a8d3e4; background: url(images/button-post-comment.png) no-repeat left; color:#fff; width: auto; font-size: 11px; font-weight: bold; padding: 4px 6px 4px 38px; }
-
-
-
-
+.comments-form textarea { border: 1px solid #BDD07E; background: #fff; padding: 4px; width: 97%;}
+.comments-form .button { border: 1px solid #BDD07E; background: url(images/button-post-comment.png) no-repeat left; color:#fff; width: auto; font-size: 11px; font-weight: bold; padding: 4px 6px 3px 38px;}
 
 
 
