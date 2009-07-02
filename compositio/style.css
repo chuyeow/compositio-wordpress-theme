@@ -26,7 +26,6 @@ a:visited { text-decoration: none; color : #8FA52D; border: 0; outline: 0; }
 a:hover { text-decoration: underline; color : #90B623; border: 0; outline: 0; }
 a:focus { outline: none; outline: 0; }
 
-h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 
 /* BG
 ############################################################################################################## */
