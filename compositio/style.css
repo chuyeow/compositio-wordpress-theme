@@ -20,10 +20,10 @@ table { border-collapse: collapse; width: 100%; }
 hr { display: none; }
 img { padding: 0; margin: 0; border: none; text-align: center; }
 
-a:link { text-decoration: none; color : #0099cc; border: 0; outline: 0; }
-a:active { text-decoration: underline; color : #0099cc; border: 0; outline: 0; }
-a:visited { text-decoration: none; color : #0099cc; border: 0; outline: 0; }
-a:hover { text-decoration: underline; color : #025d87; border: 0; outline: 0; }
+a:link { text-decoration: none; color : #8FA52D; border: 0; outline: 0; }
+a:active { text-decoration: underline; color : #8FA52D; border: 0; outline: 0; }
+a:visited { text-decoration: none; color : #8FA52D; border: 0; outline: 0; }
+a:hover { text-decoration: underline; color : #90B623; border: 0; outline: 0; }
 a:focus { outline: none; outline: 0; }
 
 h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
@@ -45,11 +45,11 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 .menu li { display: inline; font: bold 14px/14px; letter-spacing: -1px; float: left; height: 28px; }
 .menu li ul li { font-weight: normal; letter-spacing: normal; }
 .menu li a, .menu li a:visited { color:#272d36; float: left; padding: 4px 6px 10px 6px; margin-right: 5px; }
-.menu li a:hover { background: #fff; color:#0099cc; text-decoration: none; }
+.menu li a:hover { background: #fff; color:#8FA52D; text-decoration: none; }
 .menu .current_page_item a, .menu .current_page_item a:visited, .menu .current_page_item a:hover { background: #272d36 url(images/menu-on-bkg.png) repeat-x bottom; color:#fff; }
 
 .menu .current_page_item .page_item a, .menu .current_page_item .page_item a:visited { background: #def1f9; color:#272d36; }
-.menu .current_page_item .page_item a:hover { background: #fff; color:#0099cc; }
+.menu .current_page_item .page_item a:hover { background: #fff; color:#8FA52D; }
 
 /* Logo
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -83,15 +83,15 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 
 .p-head { padding-bottom: 15px; }
 .p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#272d36; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
-.p-head h1 a:hover { color:#0099cc; text-decoration: none; }
+.p-head h1 a:hover { color:#8FA52D; text-decoration: none; }
 
 .p-head h2 { color:#272d36; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
 .p-head h2 a, .p-head h2 a:visited { color:#272d36; }
-.p-head h2 a:hover { color:#0099cc; text-decoration: none; }
+.p-head h2 a:hover { color:#8FA52D; text-decoration: none; }
 
 .p-head h3 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; }
 .p-head h3 a, .p-head h3 a:visited { color:#272d36; }
-.p-head h3 a:hover { color:#0099cc; text-decoration: none; }
+.p-head h3 a:hover { color:#8FA52D; text-decoration: none; }
 
 .p-cat { font: normal 11px/14px; text-transform: uppercase; color:#999; }
 .p-cat a, .p-cat a:visited, .p-cat a:hover { text-decoration: underline; color:#999; padding-right: 5px; }
