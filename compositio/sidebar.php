@@ -36,28 +36,6 @@
 </div>
 
 
-<!-- Start Recent Comments/Articles -->
-<div class="recent">
- <ul class="tabs">
-  <li><a class="active" href="#tab-comments">Recent Comments</a></li>
-  <li><a href="#tab-posts">Recent Posts</a></li>
-  <li><a style="margin-right:0px;" href="#tab-tags">Tags</a></li>
- </ul>
- <ul id="tab-comments">
-  <?php dp_recent_comments(5); ?>
- </ul>
- <ul id="tab-posts">
- <?php $posts = get_posts("numberposts=10&orderby=post_date&order=DESC"); foreach($posts as $post) : ?>
-  <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
- <?php endforeach; ?>
- </ul>
- <div id="tab-tags">
-  <?php wp_tag_cloud(''); ?>
- </div>
-</div>
-<!-- End Recent Comments/Articles -->
-
-
 <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
 <?php endif; ?>
 </div>
