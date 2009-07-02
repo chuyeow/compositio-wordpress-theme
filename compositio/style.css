@@ -20,10 +20,10 @@ table { border-collapse: collapse; width: 100%; }
 hr { display: none; }
 img { padding: 0; margin: 0; border: none; text-align: center; }
 
-a:link { text-decoration: none; color : #c45; border: 0; outline: 0; }
-a:active { text-decoration: underline; color : #c45; border: 0; outline: 0; }
-a:visited { text-decoration: none; color : #c45; border: 0; outline: 0; }
-a:hover { text-decoration: underline; color : #90B623; border: 0; outline: 0; }
+a:link { text-decoration: none; color: #c45; border: 0; outline: 0; }
+a:active { text-decoration: underline; color: #c45; border: 0; outline: 0; }
+a:visited { text-decoration: none; color: #c45; border: 0; outline: 0; }
+a:hover { text-decoration: underline; color: #911; border: 0; outline: 0; }
 a:focus { outline: none; outline: 0; }
 
 
@@ -241,3 +241,58 @@ a:focus { outline: none; outline: 0; }
 .footer p.copy a, .footer p.copy a:visited, .footer p.copy a:hover { color:#1c3e4d; text-decoration: underline; }
 .footer p.theme { padding-top: 2px; color:#6c8e9d; }
 .footer p.theme a, .footer p.theme a:visited, .footer p.theme a:hover { color:#6c8e9d; text-decoration: underline; }
+
+
+/* == Code Highlighting == */
+
+/** RUBY / JAVASCRIPT **/
+#content code span.comment {
+color: #BD48B3;
+border: 0;
+margin: 0; padding: 0;
+}
+
+#content code span.string {
+color: #6b0;
+}
+
+#content code span.brackets {
+
+}
+
+#content code span.symbol {
+color: #399;
+}
+
+#content code span.keywords {
+color: #FF8400;
+}
+
+#content code span.erb {
+background: #333;
+}
+
+#content code span.symbol {
+color: #078FDC;
+}
+
+/** HTML **/
+code.html span.tag {
+color: #fff;
+}
+
+code.html span.attribute {
+color: #FFD500;
+}
+
+code.html span.string {
+color: #99FF00;
+}
+
+code.html span.comment {
+color: #999;
+}
+
+code.html span.doctype {
+color: #D7FF80;
+}

@@ -11,6 +11,11 @@
 <meta name="Copyright" content="Copyright (c) 2003-<?php echo date('Y'); ?> Cheah Chu Yeow" />
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascript/code_highlighter.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascript/ruby.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/javascript/javascript.js"></script>
+
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 
