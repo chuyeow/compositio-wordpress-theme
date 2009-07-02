@@ -11,7 +11,7 @@ Author URI: http://designdisease.com/
 /* Begin Typography & Colors */
 * { margin: 0; padding: 0; }
 body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 12px; padding: 0; margin-top: 0; color:#35383d; }
-input, button, textarea, select {  font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
+input, button, textarea, select { font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
 legend { display: none; }
 fieldset { border: none; }
 ul, ol { list-style: none; }
@@ -69,7 +69,7 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 .SL { width: 520px; float: left; padding-left: 70px; }
 
 .title { color:#272d36; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; padding-bottom: 15px; margin-bottom: 15px; border-bottom: solid 1px #ccc; }
-.note {  background:url(images/note-icon.png) no-repeat left 2px; padding-left: 14px; color:#669900; font-size: 11px; }
+.note { background:url(images/note-icon.png) no-repeat left 2px; padding-left: 14px; color:#669900; font-size: 11px; }
 .edit a { background:url(images/edit-icon.png) no-repeat left 2px; padding-left: 14px; color:#ff6600; font-size: 11px; }
 .error { color:#cc0000; font-size: 11px; font-weight: bold; }
 
