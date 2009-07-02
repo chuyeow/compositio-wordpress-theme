@@ -10,7 +10,7 @@ Author URI: http://designdisease.com/
 
 /* Begin Typography & Colors */
 * { margin: 0; padding: 0; }
-body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 12px; padding: 0; margin-top: 0; color:#35383d; }
+body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 12px; padding: 0; margin-top: 0; color:#333; }
 input, button, textarea, select { font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
 legend { display: none; }
 fieldset { border: none; }
@@ -52,7 +52,7 @@ a:focus { outline: none; outline: 0; }
 
 /* Logo
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.logo { overflow: hidden; border-bottom: solid 6px #e6f1f3; margin-bottom: 30px; }
+.logo { overflow: hidden; border-bottom: solid 1px #e7f7d4; margin-bottom: 30px; }
 /**/ * html .logo { height: 1%; } /* */
 
 .logo .txt { width: 520px; padding-left: 70px; padding-bottom: 30px; }
@@ -80,19 +80,19 @@ a:focus { outline: none; outline: 0; }
 /**/ * html .post, .attachment { width: 99%; } /**/
 
 
-.p-head { padding-bottom: 15px; }
-.p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#272d36; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
+.p-head { padding-bottom: 8px; }
+.p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#6F850D; font-size: 24px; letter-spacing: -1px; margin-bottom: 4px; }
 .p-head h1 a:hover { color:#8FA52D; text-decoration: none; }
 
-.p-head h2 { color:#272d36; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
-.p-head h2 a, .p-head h2 a:visited { color:#272d36; }
+.p-head h2 { color:#6F850D; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
+.p-head h2 a, .p-head h2 a:visited { color:#6F850D; }
 .p-head h2 a:hover { color:#8FA52D; text-decoration: none; }
 
-.p-head h3 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; }
-.p-head h3 a, .p-head h3 a:visited { color:#272d36; }
+.p-head h3 { color:#6F850D; font: normal 28px/28px; letter-spacing: -1px; }
+.p-head h3 a, .p-head h3 a:visited { color:#6F850D; }
 .p-head h3 a:hover { color:#8FA52D; text-decoration: none; }
 
-.p-cat { font: normal 11px/14px; text-transform: uppercase; color:#999; }
+.p-cat { font-size: 11px; color:#999; }
 .p-cat a, .p-cat a:visited, .p-cat a:hover { text-decoration: underline; color:#999; padding-right: 5px; }
 
 .p-time { position: absolute; left: -70px; top: 5px; width: 50px; }
@@ -103,7 +103,7 @@ a:focus { outline: none; outline: 0; }
 .p-time .year { background-color: #fff; color: #999; width: 38px; border-left: 1px solid #BDD07E; border-right: 1px solid #BDD07E; border-bottom: 1px solid #BDD07E; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; font-weight: normal; }
 
 .p-con { border-top: solid 1px #dbdbdb; }
-.p-con p { font: normal 12px/19px; padding: 5px 0; margin: 5px 0; }
+.p-con p { font-size: 12px; line-height: 19px; padding: 5px 0; margin: 5px 0; }
 .p-con ol { list-style: decimal inside; }
 .p-con ol { padding: 10px 0 10px 25px; margin: 0; }
 .p-con ol li { padding: 2px 0 2px 0; }
@@ -119,7 +119,7 @@ a:focus { outline: none; outline: 0; }
 .p-det li.p-det-com { background: url("images/p-det-com.png") left center no-repeat; }
 .p-det li.p-det-com a { font-weight: bold; letter-spacing: -1px; }
 .p-det li.p-det-tag { background: url("images/p-det-tag.png") left center no-repeat; }
-.p-det li a,.p-det a:visited { font: normal 14px/18px; margin-right: 3px; }
+.p-det li a,.p-det a:visited { font-size: 14px; line-height: 18px; margin-right: 3px; }
 
 .p-con .wpunlimited_bookmarks strong { font-weight: normal; color:#999; padding-bottom: 2px; font-size: 10px; text-transform:uppercase; }
 .p-con .wpunlimited_bookmarks a img { display:inline; border:none; padding:0; margin:0; margin-top: 5px; }
@@ -138,25 +138,25 @@ a:focus { outline: none; outline: 0; }
 .nav { overflow: hidden; padding-bottom: 20px; }
 .nav .left a { float: left; background:url(images/nav-left.png) no-repeat left 0; padding-left: 20px; }
 .nav .right a { float: right; background:url(images/nav-right.png) no-repeat right 0; padding-right: 20px; }
-.nav a, .nav a:visited { cursor: hand; font: bold 14px/16px; letter-spacing: -1px; }
+.nav a, .nav a:visited { cursor: hand; font-size: 14px; font-weight: bold; line-height:16px; letter-spacing: -1px; }
 
 
 
 /* Comments
 ############################################################################################################## */
 .comments-list { padding-top: 20px; }
-.comments-list h2 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; padding-bottom: 20px; }
+.comments-list h2 { color:#272d36; font-size: 28px; font-weight: normal; line-height: 28px; letter-spacing: -1px; padding-bottom: 20px; }
 .comments-list div.entry { margin-bottom: 15px; padding: 25px; border: 1px solid #dcedf0; background: #fff; }
 .comments-list div.alt { background: #EFF7D4; padding-top: 40px; border: none; margin-bottom: 25px; }
-.comments-list p.name { font: bold 14px/14px; letter-spacing: -1px; color:#000; }
+.comments-list p.name { font-size: 14px; font-weight: bold; letter-spacing: -1px; color:#000; }
 .comments-list p.avt { padding: 0; margin: 0; float: right; }
 .comments-list p.avt img { border: solid 1px #ccc; }
 * html .comments-list p.avt { left: -60px; }
 .comments-list p.date { font-size: 11px; margin-bottom: 5px; }
 .comments-list p.date a, .comments-list p.date a:visited, .comments-list p.date a:hover { color:#96b1bc; text-decoration: underline; }
 
-.comments-list .con { font: normal 12px/17px; margin-right: 90px; color:#333; }
-.comments-list .con p { font: normal 12px/17px; padding: 5px 0; margin: 0; color:#333; }
+.comments-list .con { font-size: 12px; line-height: 17px; margin-right: 90px; color:#333; }
+.comments-list .con p { font-size: 12px; line-height: 17px; padding: 5px 0; margin: 0; color:#333; }
 .comments-list .con blockquote { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; margin: 10px 20px; }
 .comments-list .con blockquote p { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; }
 
@@ -164,7 +164,7 @@ a:focus { outline: none; outline: 0; }
 /* Comments Form
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .comments-form { background: #e1f4fc; padding: 20px; margin: 10px 0; }
-.comments-form h3 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #c5e1ed; }
+.comments-form h3 { color:#272d36; font-size: 28px; line-height: 28px; font-weight: normal; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #c5e1ed; }
 .comments-form p { padding: 7px 0; color:#808080; }
 .comments-form .required { font-weight: normal; color:#ff0000; }
 .comments-form input { padding: 5px; width: 210px; margin-right: 7px; }
@@ -209,7 +209,7 @@ a:focus { outline: none; outline: 0; }
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
  .SR .categs { background: #FDFFE1; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;}
  /**/ *html .SR .categs { height: 1%;} /**/
- .SR .categs h3 { font: bold 16px/16px Arial; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
+ .SR .categs h3 { font-size: 16px; line-height: 16px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
  .SR .categs li { padding: 1px 0; list-style-type: none; font-size: 13px; color:#666; }
  .SR .categs a, .SR .categs div a:visited { display: block; padding: 1px 6px; color: #8FA52D; text-decoration: underline; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
  .SR .categs a:hover { background-color: #8FA52D; color: #fff }
@@ -218,7 +218,7 @@ a:focus { outline: none; outline: 0; }
 /* widget
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .SR .widget { background: #e1f3ee; padding: 15px; margin-bottom: 3px; color:#5e8a89; }
-.SR .widget h3 {font: bold 15px/15px; letter-spacing: -1px; color:#102a30; padding-bottom: 5px; border-bottom: solid 1px #c5ded7; margin-bottom: 5px; }
+.SR .widget h3 { font-size: 15px; line-height: 15px; letter-spacing: -1px; color:#102a30; padding-bottom: 5px; border-bottom: solid 1px #c5ded7; margin-bottom: 5px; }
 .SR .widget li { background: url(images/tabs-arrow.png) no-repeat left 6px; padding: 2px 0 2px 6px; font-size: 11px; color:#5e8a89; }
 .SR .widget a, .SR .widget a:visited { color:#247682; text-decoration: underline; }
 .SR .widget a:hover { color:#003333; text-decoration: underline; }
