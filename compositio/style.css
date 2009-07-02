@@ -52,11 +52,11 @@ a:focus { outline: none; outline: 0; }
 
 /* Logo
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.logo { overflow: hidden; border-bottom: solid 1px #e7f7d4; margin-bottom: 30px; }
+.logo { overflow: hidden; border-bottom: solid 1px #e7f7d4; background: url(images/note-icon.png); margin-bottom: 30px; }
 /**/ * html .logo { height: 1%; } /* */
 
-.logo .txt { width: 520px; padding-left: 70px; padding-bottom: 30px; }
-.logo .txt h1 { font: bold 55px/50px Helvetica, Arial, sans-serif; letter-spacing: -2px; text-transform: lowercase; padding-bottom: 5px; }
+.logo .txt { width: 520px; margin-left: 111px; padding: 0 0 16px 30px; }
+.logo .txt h1 { font-size: 50px; line-height: 50px; letter-spacing: -2px; padding-bottom: 5px; }
 .logo .txt h1 a, .logo .txt h1 a:visited, .logo .txt h1 a:hover { text-decoration: none; color:#6F850D; }
 .logo .txt p.desc { font: bold 14px/14px Helvetica, Arial, sans-serif; display: block; color:#8FA52D; }
 
