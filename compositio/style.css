@@ -84,7 +84,7 @@ a:focus { outline: none; outline: 0; }
 .p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#6F850D; font-size: 24px; letter-spacing: -1px; margin-bottom: 4px; }
 .p-head h1 a:hover { color:#8FA52D; text-decoration: none; }
 
-.p-head h2 { color:#6F850D; font-size: 34px; font-weight: normal; line-height: 34px; letter-spacing: -1px; margin-bottom: 6px; }
+.p-head h2 { color:#6F850D; font-size: 30px; font-weight: normal; line-height: 34px; letter-spacing: -1px; margin-bottom: 6px; }
 .p-head h2 a, .p-head h2 a:visited { color:#6F850D; }
 .p-head h2 a:hover { color:#8FA52D; text-decoration: none; }
 
@@ -163,14 +163,14 @@ a:focus { outline: none; outline: 0; }
 
 /* Comments Form
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.comments-form { background: #e1f4fc; padding: 20px; margin: 10px 0; }
-.comments-form h3 { color:#272d36; font-size: 28px; line-height: 28px; font-weight: normal; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #c5e1ed; }
-.comments-form p { padding: 7px 0; color:#808080; }
-.comments-form .required { font-weight: normal; color:#ff0000; }
+.comments-form { background: #EFF7D4; padding: 20px; margin: 10px 0;}
+.comments-form h3 { color:#8FA52D; font: normal 28px/28px "Arial"; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #BDD07E; }
+.comments-form p { padding: 7px 0; color:#808080;}
+.comments-form .required { font-weight: normal; color:#8FA52D;}
 .comments-form input { padding: 5px; width: 210px; margin-right: 7px; }
-.comments-form input.formid { border: 1px solid #a8d3e4; background: #fff url(images/form-name-bkg.png) no-repeat left; padding: 5px 5px 5px 40px; }
-.comments-form input.formemail { border: 1px solid #a8d3e4; background: #fff url(images/form-email-bkg.png) no-repeat left; padding: 5px 5px 5px 40px; }
-.comments-form input.formuri { border: 1px solid #a8d3e4; background: #fff url(images/form-uri-bkg.png) no-repeat left; padding: 5px 5px 5px 40px; }
+.comments-form input.formid { border: 1px solid #BDD07E; background: #fff url(images/form-name-bkg.png) no-repeat left; padding: 5px 5px 5px 40px;}
+.comments-form input.formemail { border: 1px solid #BDD07E; background: #fff url(images/form-email-bkg.png) no-repeat left; padding: 5px 5px 5px 40px;}
+.comments-form input.formuri { border: 1px solid #BDD07E; background: #fff url(images/form-uri-bkg.png) no-repeat left; padding: 5px 5px 5px 40px;}
 
 .comments-form textarea { border: 1px solid #a8d3e4; background: #fff; padding: 4px; width: 97%; }
 .comments-form .button { border: 1px solid #a8d3e4; background: url(images/button-post-comment.png) no-repeat left; color:#fff; width: auto; font-size: 11px; font-weight: bold; padding: 4px 6px 4px 38px; }
