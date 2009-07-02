@@ -10,7 +10,7 @@ Author URI: http://designdisease.com/
 
 /* Begin Typography & Colors */
 * { margin: 0; padding: 0; }
-body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 15px; line-height: 22px; padding: 0; margin-top: 0; color:#333; }
+body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 15px; padding: 0; margin-top: 0; color:#333; }
 input, button, textarea, select { font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
 legend { display: none; }
 fieldset { border: none; }
@@ -103,7 +103,7 @@ a:focus { outline: none; outline: 0; }
 .p-time .year { background-color: #fff; color: #999; width: 38px; border-left: 1px solid #BDD07E; border-right: 1px solid #BDD07E; border-bottom: 1px solid #BDD07E; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; font-weight: normal; }
 
 .p-con { border-top: solid 1px #dbdbdb; }
-.p-con p { padding: 5px 0; margin: 5px 0; }
+.p-con p { line-height: 20px; padding: 5px 0; margin: 5px 0; }
 .p-con ol { list-style: decimal inside; }
 .p-con ol { padding: 10px 0 10px 25px; margin: 0; }
 .p-con ol li { padding: 2px 0 2px 0; }
