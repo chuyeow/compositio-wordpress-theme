@@ -189,9 +189,9 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 /* Search
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .SR .search { background: #3d96d5 url(images/search-bkg.png) no-repeat left bottom; right: 0; padding: 15px; overflow: hidden; }
-/**/ *html .SR .search  { height: 1%; } /**/
+/**/ *html .SR .search { height: 1%; } /**/
 .SR .search form { width: 245px; padding: 10px; border: 1px solid #3ac6e5; background: #2abada; }
-.SR .search fieldset { overflow: hidden; height: 1%;  }
+.SR .search fieldset { overflow: hidden; height: 1%; }
 .SR .search input { float: left; margin-right: 2px; background: url(images/search-input.png) no-repeat; border: none; padding: 5px 3px 5px 65px; width: 145px; color:#666; }
 .SR .search button { float: left; background: url(images/search-button.png) no-repeat; width: 26px; height: 24px; border: none; cursor: pointer; text-indent: -1000em; }
 .SR .syn ul { margin: 10px 0; }
@@ -248,7 +248,7 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 
 /* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .footer { width: 870px; margin: 0 auto; padding: 15px 0 15px 90px; }
-.footer p { padding: 0; margin: 0; font-size: 11px;  }
+.footer p { padding: 0; margin: 0; font-size: 11px; }
 .footer p.copy { color:#1c3e4d; }
 .footer p.copy a, .footer p.copy a:visited, .footer p.copy a:hover { color:#1c3e4d; text-decoration: underline; }
 .footer p.theme { padding-top: 2px; color:#6c8e9d; }
