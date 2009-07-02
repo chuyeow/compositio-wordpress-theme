@@ -206,15 +206,6 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 .SR .about h3 { font-size: 24px; letter-spacing: -1px; color:#fff; }
 .SR .about p { padding: 5px 0; margin: 0; font-size: 13px; line-height: 16px; }
 
-/* Photostream
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.SR .photostream { overflow: hidden; background: #9ed5e1 url(images/photostream-bkg.png) no-repeat bottom left; padding: 15px 0 25px 15px; }
-/**/ *html .SR .photostream { height: 1%; } /**/
-.SR .photostream h3 { font-size: 24px; letter-spacing: -1px; color:#102a30; }
-.SR .photostream ul { float: left; margin-top: 10px; }
-.SR .photostream li { background: url(images/photostream-li-bkg.png) no-repeat left top; list-style-type: none; display: inline; padding: 5px; float: left; margin: 0 3px 5px 0; }
-.SR .photostream li a img, .SR .photostream li a:visited img { border: solid 1px #fff; width: 54px; height: 54px; }
-.SR .photostream li a:hover img { border: solid 1px #000; }
 
 /* Categories + Archives
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
