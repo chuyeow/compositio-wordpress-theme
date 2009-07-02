@@ -25,18 +25,18 @@
 
 
 <div class="categs">
-  <div> 
-	<h3>Categories</h3> 
-	 <ul> 
-		<?php wp_list_categories('show_count=1&title_li='); ?> 
-	</ul> 
-	</div>
-	<div style="margin-left: 10px;">
-	 <h3>Archives</h3>
-	  <ul>
-	   <?php wp_get_archives('type=monthly'); ?>
-	  </ul>
-	</div>
+  <div>
+  <h3>Categories</h3>
+   <ul>
+    <?php wp_list_categories('show_count=1&title_li='); ?>
+  </ul>
+  </div>
+  <div style="margin-left: 10px;">
+   <h3>Archives</h3>
+    <ul>
+     <?php wp_get_archives('type=monthly'); ?>
+    </ul>
+  </div>
 </div>
 
 
@@ -49,9 +49,9 @@
  </ul>
  <ul id="tab-comments">
   <?php dp_recent_comments(5); ?>
- </ul> 
+ </ul>
  <ul id="tab-posts">
- <?php $posts = get_posts("numberposts=10&orderby=post_date&order=DESC"); foreach($posts as $post) : ?>	
+ <?php $posts = get_posts("numberposts=10&orderby=post_date&order=DESC"); foreach($posts as $post) : ?>
   <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
  <?php endforeach; ?>
  </ul>
