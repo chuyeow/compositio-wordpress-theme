@@ -80,11 +80,11 @@ a:focus { outline: none; outline: 0; }
 /**/ * html .post, .attachment { width: 99%; } /**/
 
 
-.p-head { padding-bottom: 8px; }
+.p-head { padding-bottom: 4px; }
 .p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#6F850D; font-size: 24px; letter-spacing: -1px; margin-bottom: 4px; }
 .p-head h1 a:hover { color:#8FA52D; text-decoration: none; }
 
-.p-head h2 { color:#6F850D; font: normal 34px/34px "Helvetica"; letter-spacing: -1px; }
+.p-head h2 { color:#6F850D; font-size: 34px; font-weight: normal; line-height: 34px; letter-spacing: -1px; margin-bottom: 6px; }
 .p-head h2 a, .p-head h2 a:visited { color:#6F850D; }
 .p-head h2 a:hover { color:#8FA52D; text-decoration: none; }
 
@@ -211,8 +211,8 @@ a:focus { outline: none; outline: 0; }
  /**/ *html .SR .categs { height: 1%;} /**/
  .SR .categs h3 { font-size: 16px; line-height: 16px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
  .SR .categs li { padding: 1px 0; list-style-type: none; font-size: 13px; color:#666; }
- .SR .categs a, .SR .categs div a:visited { display: block; padding: 1px 6px; text-decoration: underline; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
- .SR .categs a:hover { background-color: #c45; color: #fff }
+ .SR .categs a, .SR .categs div a:visited { display: block; padding: 2px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+ .SR .categs a:hover { background-color: #c45; color: #fff; text-decoration: none; }
 
 
 /* widget
