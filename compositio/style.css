@@ -148,15 +148,15 @@ a:focus { outline: none; outline: 0; }
 .comments-list h2 { color:#8FA52D; font-size: 28px; font-weight: normal; line-height: 28px; letter-spacing: -1px; padding-bottom: 20px; }
 .comments-list div.entry { margin-bottom: 15px; padding: 25px; border: 1px solid #dcedf0; background: #fff; }
 .comments-list div.alt { background: #EFF7D4; padding-top: 40px; border: none; margin-bottom: 25px; }
-.comments-list p.name { font-size: 14px; font-weight: bold; letter-spacing: -1px; color:#000; }
+.comments-list p.name { font-size: 16px; font-weight: bold; letter-spacing: -1px; color:#333; }
 .comments-list p.avt { padding: 0; margin: 0; float: right; }
 .comments-list p.avt img { border: solid 1px #ccc; }
 * html .comments-list p.avt { left: -60px; }
 .comments-list p.date { font-size: 11px; margin-bottom: 5px; }
 .comments-list p.date a, .comments-list p.date a:visited, .comments-list p.date a:hover { color:#666; text-decoration: underline; }
 
-.comments-list .con { font-size: 12px; line-height: 17px; margin-right: 90px; color:#333; }
-.comments-list .con p { font-size: 12px; line-height: 17px; padding: 5px 0; margin: 0; color:#333; }
+.comments-list .con { font-size: 13px; line-height: 17px; margin-right: 90px; color:#333; }
+.comments-list .con p { font-size: 13px; line-height: 17px; padding: 5px 0; margin: 0; color:#333; }
 .comments-list .con blockquote { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; margin: 10px 20px; }
 .comments-list .con blockquote p { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; }
 
