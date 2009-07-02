@@ -233,10 +233,10 @@ a:focus { outline: none; outline: 0; }
 /* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .footer { width: 870px; margin: 0 auto; padding: 15px 0 15px 90px; }
 .footer p { padding: 0; margin: 0; font-size: 11px; }
-.footer p.copy { color:#1c3e4d; }
-.footer p.copy a, .footer p.copy a:visited, .footer p.copy a:hover { color:#1c3e4d; text-decoration: underline; }
-.footer p.theme { padding-top: 2px; color:#6c8e9d; }
-.footer p.theme a, .footer p.theme a:visited, .footer p.theme a:hover { color:#6c8e9d; text-decoration: underline; }
+.footer p.copy { color:#676; }
+.footer p.copy a, .footer p.copy a:visited, .footer p.copy a:hover { color:#676; text-decoration: underline; }
+.footer p.theme { padding-top: 2px; color:#676; }
+.footer p.theme a, .footer p.theme a:visited, .footer p.theme a:hover { color:#676; text-decoration: underline; }
 
 
 pre {
