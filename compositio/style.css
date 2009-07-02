@@ -267,33 +267,33 @@ width:90%;
 /* == Code Highlighting == */
 
 /** RUBY / JAVASCRIPT **/
-#content code span.comment {
+code span.comment {
 color: #BD48B3;
 border: 0;
 margin: 0; padding: 0;
 }
 
-#content code span.string {
+code span.string {
 color: #6b0;
 }
 
-#content code span.brackets {
+code span.brackets {
 
 }
 
-#content code span.symbol {
+code span.symbol {
 color: #399;
 }
 
-#content code span.keywords {
+code span.keywords {
 color: #FF8400;
 }
 
-#content code span.erb {
+code span.erb {
 background: #333;
 }
 
-#content code span.symbol {
+code span.symbol {
 color: #078FDC;
 }
 
