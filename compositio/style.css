@@ -11,7 +11,7 @@ Author URI: http://designdisease.com/
 /* Begin Typography & Colors */
 * { margin: 0; padding: 0; }
 body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 12px; padding: 0; margin-top: 0; color:#35383d;}
-input, button, textarea, select {  font: normal 12px/12px "Verdana", sans-serif; color:#2d3538; vertical-align: middle; }
+input, button, textarea, select {  font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
 legend { display: none; }
 fieldset { border: none; }
 ul, ol { list-style: none; }
@@ -26,7 +26,7 @@ a:visited { text-decoration: none; color : #0099cc; border: 0; outline: 0;}
 a:hover { text-decoration: underline; color : #025d87; border: 0; outline: 0;}
 a:focus { outline: none; outline: 0;}
 
-h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 
 /* BG
 ############################################################################################################## */
@@ -42,7 +42,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .menu { overflow: hidden; float: left; width: 100%; background:#def1f9; width: 980px; margin: 0 auto; padding: 10px 0 0 100px;}
 /**/ * html .menu { height: 1%;} /* */
 .menu ul { float:left; }
-.menu li { display: inline; font: bold 14px/14px "Arial"; letter-spacing: -1px; float: left; height: 28px; }
+.menu li { display: inline; font: bold 14px/14px; letter-spacing: -1px; float: left; height: 28px; }
 .menu li ul li { font-weight: normal; letter-spacing: normal;}
 .menu li a, .menu li a:visited { color:#272d36; float: left; padding: 4px 6px 10px 6px; margin-right: 5px;}
 .menu li a:hover { background: #fff; color:#0099cc; text-decoration: none;}
@@ -57,9 +57,9 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 /**/ * html .logo { height: 1%;} /* */
 
 .logo .txt { width: 520px; padding-left: 70px; background: url(images/logo-symbol.png) no-repeat left 10px; padding-bottom: 30px; }
-.logo .txt h1 { font: bold 55px/50px "Arial"; letter-spacing: -3px; text-transform: lowercase; padding-bottom: 5px;}
+.logo .txt h1 { font: bold 55px/50px; letter-spacing: -3px; text-transform: lowercase; padding-bottom: 5px;}
 .logo .txt h1 a, .logo .txt h1 a:visited, .logo .txt h1 a:hover { text-decoration: none; color:#272d36;}
-.logo .txt p.desc { font: bold 14px/14px "Arial"; letter-spacing: -1px; display: block; color:#2abada;}
+.logo .txt p.desc { font: bold 14px/14px; letter-spacing: -1px; display: block; color:#2abada;}
 
 .logo .img { padding-bottom: 15px; }
 
@@ -89,22 +89,22 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .p-head h2 a, .p-head h2 a:visited { color:#272d36; }
 .p-head h2 a:hover { color:#0099cc; text-decoration: none; }
 
-.p-head h3 { color:#272d36; font: normal 28px/28px "Arial"; letter-spacing: -1px; }
+.p-head h3 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; }
 .p-head h3 a, .p-head h3 a:visited { color:#272d36;}
 .p-head h3 a:hover { color:#0099cc; text-decoration: none;}
 
-.p-cat { font: normal 11px/14px 'Arial'; text-transform: uppercase; color:#999;}
+.p-cat { font: normal 11px/14px; text-transform: uppercase; color:#999;}
 .p-cat a, .p-cat a:visited, .p-cat a:hover { text-decoration: underline; color:#999; padding-right: 5px;}
 
 .p-time { background: url(images/p-time-bkg.png) no-repeat right bottom; position: absolute; left: -70px; top: 5px; width: 50px; padding-bottom: 10px; }
 /**/ * html .p-time { left: -70px;} /**/
 .p-time strong { float: left; text-align: center;}
-.p-time .day { font: normal 20px/18px "Arial"; letter-spacing: -1px; color:#fff; width: 40px; padding: 7px 0; background:#2abada; overflow: hidden; }
+.p-time .day { font: normal 20px/18px; letter-spacing: -1px; color:#fff; width: 40px; padding: 7px 0; background:#2abada; overflow: hidden; }
 .p-time .month { background:#dedede; width: 40px; padding: 3px 0; margin-bottom: 10px;}
-.p-time .year { background: #fff; border: solid 1px #dedede; font: normal 11px/11px 'Verdana'; padding: 12px 5px; color:#bababa;}
+.p-time .year { background: #fff; border: solid 1px #dedede; font: normal 11px/11px; padding: 12px 5px; color:#bababa;}
 
 .p-con { border-top: solid 1px #dbdbdb;}
-.p-con p { font: normal 12px/19px "Verdana"; padding: 5px 0; margin: 5px 0;}
+.p-con p { font: normal 12px/19px; padding: 5px 0; margin: 5px 0;}
 .p-con ol { list-style: decimal inside; }
 .p-con ol { padding: 10px 0 10px 25px; margin: 0; }
 .p-con ol li { padding: 2px 0 2px 0; }
@@ -120,7 +120,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .p-det li.p-det-com { background: url("images/p-det-com.png") left center no-repeat; }
 .p-det li.p-det-com a { font-weight: bold; letter-spacing: -1px;}
 .p-det li.p-det-tag { background: url("images/p-det-tag.png") left center no-repeat; }
-.p-det li a,.p-det a:visited { font: normal 14px/18px "Arial"; margin-right: 3px;}
+.p-det li a,.p-det a:visited { font: normal 14px/18px; margin-right: 3px;}
 
 .p-con .wpunlimited_bookmarks strong { font-weight: normal; color:#999; padding-bottom: 2px; font-size: 10px; text-transform:uppercase; }
 .p-con .wpunlimited_bookmarks a img { display:inline; border:none; padding:0; margin:0; margin-top: 5px; }
@@ -139,25 +139,25 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .nav { overflow: hidden; padding-bottom: 20px;}
 .nav .left a { float: left; background:url(images/nav-left.png) no-repeat left 0; padding-left: 20px; }
 .nav .right a { float: right; background:url(images/nav-right.png) no-repeat right 0; padding-right: 20px; }
-.nav a, .nav a:visited { cursor: hand; font: bold 14px/16px "Arial"; letter-spacing: -1px; }
+.nav a, .nav a:visited { cursor: hand; font: bold 14px/16px; letter-spacing: -1px; }
 
 
 
 /* Comments
 ############################################################################################################## */
 .comments-list { padding-top: 20px;}
-.comments-list h2 { color:#272d36; font: normal 28px/28px "Arial"; letter-spacing: -1px; padding-bottom: 20px;}
+.comments-list h2 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; padding-bottom: 20px;}
 .comments-list div.entry { margin-bottom: 15px; padding: 25px; border: 1px solid #dcedf0; background: #fff url(images/comments-list-entry-bkg.png) no-repeat right bottom;}
 .comments-list div.alt { background: #e1f4fc url(images/comments-list-alt-bkg.png) no-repeat left top; padding-top: 40px; border: none; margin-bottom: 25px;}
-.comments-list p.name { font: bold 14px/14px "Arial" sans-serif; letter-spacing: -1px; color:#000;}
+.comments-list p.name { font: bold 14px/14px; letter-spacing: -1px; color:#000;}
 .comments-list p.avt { padding: 0; margin: 0; float: right;}
 .comments-list p.avt img { border: solid 1px #ccc;}
 * html .comments-list p.avt { left: -60px; }
 .comments-list p.date { font-size: 11px; margin-bottom: 5px;}
 .comments-list p.date a, .comments-list p.date a:visited, .comments-list p.date a:hover { color:#96b1bc; text-decoration: underline;}
 
-.comments-list .con { font: normal 12px/17px "Verdana"; margin-right: 90px; color:#333;}
-.comments-list .con p { font: normal 12px/17px "Verdana"; padding: 5px 0; margin: 0; color:#333;}
+.comments-list .con { font: normal 12px/17px; margin-right: 90px; color:#333;}
+.comments-list .con p { font: normal 12px/17px; padding: 5px 0; margin: 0; color:#333;}
 .comments-list .con blockquote { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; margin: 10px 20px; }
 .comments-list .con blockquote p { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; color:#666; }
 
@@ -165,7 +165,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 /* Comments Form
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .comments-form { background: #e1f4fc; padding: 20px; margin: 10px 0;}
-.comments-form h3 { color:#272d36; font: normal 28px/28px "Arial"; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #c5e1ed; }
+.comments-form h3 { color:#272d36; font: normal 28px/28px; letter-spacing: -1px; padding-bottom: 5px; margin-bottom: 5px; border-bottom: solid 1px #c5e1ed; }
 .comments-form p { padding: 7px 0; color:#808080;}
 .comments-form .required { font-weight: normal; color:#ff0000;}
 .comments-form input { padding: 5px; width: 210px; margin-right: 7px; }
@@ -195,7 +195,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .SR .search input { float: left; margin-right: 2px; background: url(images/search-input.png) no-repeat; border: none; padding: 5px 3px 5px 65px; width: 145px; color:#666;}
 .SR .search button { float: left; background: url(images/search-button.png) no-repeat; width: 26px; height: 24px; border: none; cursor: pointer; text-indent: -1000em; }
 .SR .syn ul { margin: 10px 0;}
-.SR .syn li { background: url(images/SynIco.png) no-repeat left center; margin: 0 5px 0 0; padding: 3px 0 3px 15px; list-style-type: none; color:#ffcc66; display: inline; font: bold 14px/14px 'Arial'; letter-spacing: -1px;}
+.SR .syn li { background: url(images/SynIco.png) no-repeat left center; margin: 0 5px 0 0; padding: 3px 0 3px 15px; list-style-type: none; color:#ffcc66; display: inline; font: bold 14px/14px; letter-spacing: -1px;}
 .SR .syn li a {color:#fff; }
 .SR .syn li a:visited {color:#fff; }
 .SR .syn li a:hover {color:#fff; }
@@ -221,7 +221,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .SR .categs { background: #d1f0e2; overflow: hidden; padding: 15px; margin-bottom: 3px;}
 /**/ *html .SR .categs { height: 1%;} /**/
 .SR .categs div { float: left; width: 130px;}
-.SR .categs div h3 { font: bold 15px/15px 'Arial'; letter-spacing: -1px; color:#102a30; padding-bottom: 5px;}
+.SR .categs div h3 { font: bold 15px/15px; letter-spacing: -1px; color:#102a30; padding-bottom: 5px;}
 .SR .categs div li { padding: 1px 0; list-style-type: none; font-size: 11px; color:#5e8a89; }
 .SR .categs div a, .SR .categs div a:visited { color:#247682; text-decoration: underline;}
 .SR .categs div a:hover { color:#003333; text-decoration: underline;}
@@ -232,7 +232,7 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 .SR .recent .tabs { overflow: hidden; }
 .SR .recent .tabs { height: 1%; }
 .SR .recent .tabs li { float: left; background: none; }
-.SR .recent .tabs li a { float: left; font: bold 14px/14px "Arial"; color: #102a30; padding: 3px 6px 9px 6px; background: #b5d6cd url(images/tabs-inactive.png) no-repeat bottom center; margin-right: 3px; letter-spacing: -1px; text-decoration: none;}
+.SR .recent .tabs li a { float: left; font: bold 14px/14px; color: #102a30; padding: 3px 6px 9px 6px; background: #b5d6cd url(images/tabs-inactive.png) no-repeat bottom center; margin-right: 3px; letter-spacing: -1px; text-decoration: none;}
 .SR .recent .tabs li a.active, .SR .recent .tabs li a:hover { background: #4a6969 url(images/tabs-active.png) no-repeat bottom center; color: #fff; text-decoration: none; }
 .SR .recent a, .SR .recent a:visited { color:#247682; text-decoration: underline;}
 .SR .recent a:hover { color:#003333; text-decoration: underline;}
@@ -242,14 +242,14 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 #tab-comments li a { display: block;}
 #tab-posts { margin-bottom: 5px; font-size: 11px; }
 #tab-posts li { background: url(images/tabs-arrow.png) no-repeat left 8px; line-height: 14px; padding: 1px 0 1px 6px;}
-#tab-tags { display: none; margin-bottom: 5px; font-family: "Verdana"; line-height: 22px;}
+#tab-tags { display: none; margin-bottom: 5px; line-height: 22px;}
 
 
 
 /* widget
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .SR .widget { background: #e1f3ee; padding: 15px; margin-bottom: 3px; color:#5e8a89;}
-.SR .widget h3 {font: bold 15px/15px 'Arial'; letter-spacing: -1px; color:#102a30; padding-bottom: 5px; border-bottom: solid 1px #c5ded7; margin-bottom: 5px;}
+.SR .widget h3 {font: bold 15px/15px; letter-spacing: -1px; color:#102a30; padding-bottom: 5px; border-bottom: solid 1px #c5ded7; margin-bottom: 5px;}
 .SR .widget li { background: url(images/tabs-arrow.png) no-repeat left 6px; padding: 2px 0 2px 6px; font-size: 11px; color:#5e8a89;}
 .SR .widget a, .SR .widget a:visited { color:#247682; text-decoration: underline;}
 .SR .widget a:hover { color:#003333; text-decoration: underline;}
@@ -267,9 +267,8 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 
 /* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .footer { width: 870px; margin: 0 auto; padding: 15px 0 15px 90px;}
-.footer p { padding: 0; margin: 0; font-family: 'Verdana'; font-size: 11px;  }
+.footer p { padding: 0; margin: 0; font-size: 11px;  }
 .footer p.copy { color:#1c3e4d; }
 .footer p.copy a, .footer p.copy a:visited, .footer p.copy a:hover { color:#1c3e4d; text-decoration: underline;}
 .footer p.theme { padding-top: 2px; color:#6c8e9d; }
 .footer p.theme a, .footer p.theme a:visited, .footer p.theme a:hover { color:#6c8e9d; text-decoration: underline;}
-
