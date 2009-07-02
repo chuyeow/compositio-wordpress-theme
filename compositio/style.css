@@ -20,9 +20,9 @@ table { border-collapse: collapse; width: 100%; }
 hr { display: none; }
 img { padding: 0; margin: 0; border: none; text-align: center; }
 
-a:link { text-decoration: none; color : #8FA52D; border: 0; outline: 0; }
-a:active { text-decoration: underline; color : #8FA52D; border: 0; outline: 0; }
-a:visited { text-decoration: none; color : #8FA52D; border: 0; outline: 0; }
+a:link { text-decoration: none; color : #c45; border: 0; outline: 0; }
+a:active { text-decoration: underline; color : #c45; border: 0; outline: 0; }
+a:visited { text-decoration: none; color : #c45; border: 0; outline: 0; }
 a:hover { text-decoration: underline; color : #90B623; border: 0; outline: 0; }
 a:focus { outline: none; outline: 0; }
 
@@ -211,8 +211,8 @@ a:focus { outline: none; outline: 0; }
  /**/ *html .SR .categs { height: 1%;} /**/
  .SR .categs h3 { font-size: 16px; line-height: 16px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
  .SR .categs li { padding: 1px 0; list-style-type: none; font-size: 13px; color:#666; }
- .SR .categs a, .SR .categs div a:visited { display: block; padding: 1px 6px; color: #8FA52D; text-decoration: underline; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
- .SR .categs a:hover { background-color: #8FA52D; color: #fff }
+ .SR .categs a, .SR .categs div a:visited { display: block; padding: 1px 6px; text-decoration: underline; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+ .SR .categs a:hover { background-color: #c45; color: #fff }
 
 
 /* widget
