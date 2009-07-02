@@ -226,25 +226,6 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 .SR .categs div a, .SR .categs div a:visited { color:#247682; text-decoration: underline;}
 .SR .categs div a:hover { color:#003333; text-decoration: underline;}
 
-/* Recent
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.SR .recent { background: #e1f3ee; padding: 15px; margin-bottom: 3px; }
-.SR .recent .tabs { overflow: hidden; }
-.SR .recent .tabs { height: 1%; }
-.SR .recent .tabs li { float: left; background: none; }
-.SR .recent .tabs li a { float: left; font: bold 14px/14px; color: #102a30; padding: 3px 6px 9px 6px; background: #b5d6cd url(images/tabs-inactive.png) no-repeat bottom center; margin-right: 3px; letter-spacing: -1px; text-decoration: none;}
-.SR .recent .tabs li a.active, .SR .recent .tabs li a:hover { background: #4a6969 url(images/tabs-active.png) no-repeat bottom center; color: #fff; text-decoration: none; }
-.SR .recent a, .SR .recent a:visited { color:#247682; text-decoration: underline;}
-.SR .recent a:hover { color:#003333; text-decoration: underline;}
-
-#tab-comments { display: none; margin-bottom: 5px; }
-#tab-comments li { background: url(images/tabs-arrow.png) no-repeat left 10px; padding: 4px 0 4px 6px; border-bottom: solid 1px #c5ded7; font-size: 11px; color:#5e8a89;}
-#tab-comments li a { display: block;}
-#tab-posts { margin-bottom: 5px; font-size: 11px; }
-#tab-posts li { background: url(images/tabs-arrow.png) no-repeat left 8px; line-height: 14px; padding: 1px 0 1px 6px;}
-#tab-tags { display: none; margin-bottom: 5px; line-height: 22px;}
-
-
 
 /* widget
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
