@@ -9,7 +9,7 @@
 
   <div class="syn">
     <ul>
-      <li><a href="<?php bloginfo('rss2_url'); ?>">Entries</a> (RSS)</li>
+      <li><a href="<?php bloginfo('rss2_url'); ?>">Subscribe to RSS feed</a></li>
     </ul>
   </div>
 </div>
