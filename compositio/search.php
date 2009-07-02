@@ -25,7 +25,7 @@
 
 <div class="p-det">
  <ul>
-   <li class="p-det-com"><?php comments_popup_link('No Comments', '(1) Comment', '(%) Comments'); ?></li>
+   <li class="p-det-com"><?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></li>
   <?php if (function_exists('the_tags')) { ?> <?php the_tags('<li class="p-det-tag">Tags: ', ', ', '</li>'); ?> <?php } ?>
 </ul>
 </div>
