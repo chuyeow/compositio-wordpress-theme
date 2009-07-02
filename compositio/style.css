@@ -195,10 +195,9 @@ h1, h2, h3, h4 { font-family: Helvetica, Arial, sans-serif; }
 .SR .search input { float: left; margin-right: 2px; background: url(images/search-input.png) no-repeat; border: none; padding: 5px 3px 5px 65px; width: 145px; color:#666; }
 .SR .search button { float: left; background: url(images/search-button.png) no-repeat; width: 26px; height: 24px; border: none; cursor: pointer; text-indent: -1000em; }
 .SR .syn ul { margin: 10px 0; }
-.SR .syn li { background: url(images/SynIco.png) no-repeat left center; margin: 0 5px 0 0; padding: 3px 0 3px 15px; list-style-type: none; color:#ffcc66; display: inline; font: bold 14px/14px; letter-spacing: -1px; }
-.SR .syn li a {color:#fff; }
-.SR .syn li a:visited {color:#fff; }
-.SR .syn li a:hover {color:#fff; }
+.SR .syn li a { display: block; height: 30px; background: url(images/syn.gif) no-repeat left center; color:#666; margin: 0 5px 0 0; padding: 18px 0 0 54px; list-style-type: none; font: bold 15px/15px; letter-spacing: -1px; }
+.SR .syn li a:visited { color:#666; }
+.SR .syn li a:hover { color:#333; text-decoration: none; }
 
 /* About Blog
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
