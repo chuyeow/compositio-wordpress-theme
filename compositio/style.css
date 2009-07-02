@@ -52,7 +52,7 @@ a:focus { outline: none; outline: 0; }
 
 /* Logo
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.logo { overflow: hidden; border-bottom: solid 1px #e7f7d4; background: url(images/logo.gif); margin-bottom: 30px; }
+.logo { overflow: hidden; border-bottom: solid 1px #e7f7d4; background: url(images/logo.gif) no-repeat 0 0; margin-bottom: 30px; }
 /**/ * html .logo { height: 1%; } /* */
 
 .logo .txt { width: 520px; margin-left: 111px; padding: 0 0 16px 30px; }
