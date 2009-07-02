@@ -10,7 +10,7 @@ Author URI: http://designdisease.com/
 
 /* Begin Typography & Colors */
 * { margin: 0; padding: 0; }
-body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 15px; padding: 0; margin-top: 0; color:#333; }
+body { background: #fff; font-family: Helvetica, Arial, sans-serif; font-size: 14px; padding: 0; color:#333; }
 input, button, textarea, select { font: normal 12px/12px Helvetica, Arial, sans-serif; color:#2d3538; vertical-align: middle; }
 legend { display: none; }
 fieldset { border: none; }
@@ -106,9 +106,9 @@ a:focus { outline: none; outline: 0; }
 .p-con p { line-height: 20px; padding: 5px 0; margin: 5px 0; }
 .p-con ol { list-style: decimal inside; }
 .p-con ol { padding: 10px 0 10px 25px; margin: 0; }
-.p-con ol li { padding: 2px 0 2px 0; }
+.p-con ol li { line-height: 20px; padding: 2px 0 2px 0; }
 .p-con ul { padding: 10px 0 10px 20px; margin: 0; }
-.p-con ul li { padding: 2px 0 2px 13px; list-style-type: none; background: url("images/p-con-li.png") no-repeat left 1px; color:#666; }
+.p-con ul li { line-height: 20px; padding: 2px 0 2px 13px; list-style-type: none; background: url("images/p-con-li.png") no-repeat left 1px; color:#666; }
 .p-con blockquote { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; padding: 10px 20px; margin: 10px 0; background: #ecf6f8; }
 .p-con blockquote p { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; }
 .p-con blockquote li { padding: 2px 0 2px 13px; list-style-type: none; font-size: 12px; line-height: 17px; }
@@ -187,7 +187,7 @@ a:focus { outline: none; outline: 0; }
 
 /* Search
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-.SR .search { background-color: #eef3ee; right: 0; margin: 0 0 8px; padding: 15px 15px 5px; -moz-border-radius-bottomleft: 15px; -webkit-border-bottom-left-radius: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-bottom-right-radius: 15px; overflow: hidden;}
+.SR .search { background-color: #eee; right: 0; margin: 0 0 8px; padding: 15px 15px 5px; -moz-border-radius-bottomleft: 15px; -webkit-border-bottom-left-radius: 15px; -moz-border-radius-bottomright: 15px; -webkit-border-bottom-right-radius: 15px; overflow: hidden;}
 /**/ *html .SR .search  { height: 1%;} /**/
 .SR .search form { width: 247px; padding: 10px;; background: #EFF7D4; }
 .SR .search fieldset { overflow: hidden; height: 1%;  }
@@ -200,18 +200,18 @@ a:focus { outline: none; outline: 0; }
 
 /* About Blog
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
- .SR .about { display: none; background-color: #eef3ee; margin: 0 0 8px; padding: 20px 15px 15px 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color:#fff;}
+ .SR .about { display: none; background-color: #eee; margin: 0 0 8px; padding: 20px 15px 15px 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color:#fff;}
  .SR .about h3 { font-size: 24px; letter-spacing: -1px; color:#8FA52D;}
  .SR .about p { padding: 5px 0; margin: 0; font-size: 13px; line-height: 16px;}
 
 
 /* Categories + Archives
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
- .SR .categs { background: #eef3ee; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;}
+ .SR .categs { background: #eee; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;}
  /**/ *html .SR .categs { height: 1%;} /**/
  .SR .categs h3 { font-size: 16px; line-height: 16px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
- .SR .categs li { padding: 1px 0; list-style-type: none; font-size: 13px; color:#666; }
- .SR .categs a, .SR .categs div a:visited { display: block; padding: 2px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+ .SR .categs li { list-style-type: none; font-size: 14px; }
+ .SR .categs a, .SR .categs div a:visited { display: block; padding: 3px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
  .SR .categs a:hover { background-color: #c45; color: #fff; text-decoration: none; }
 
 
