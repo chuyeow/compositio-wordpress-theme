@@ -81,7 +81,7 @@ a:focus { outline: none; outline: 0; }
 
 
 .p-head { padding-bottom: 4px; }
-.p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#6F850D; font-size: 24px; letter-spacing: -1px; margin-bottom: 4px; }
+.p-head h1, .p-head h1 a, .p-head h1 a:visited { color:#6F850D; font-size: 30px; font-weight: normal; line-height: 34px; letter-spacing: -1px; margin-bottom: 4px; }
 .p-head h1 a:hover { color:#8FA52D; text-decoration: none; }
 
 .p-head h2 { color:#6F850D; font-size: 30px; font-weight: normal; line-height: 34px; letter-spacing: -1px; margin-bottom: 6px; }
@@ -103,10 +103,10 @@ a:focus { outline: none; outline: 0; }
 .p-time .year { background-color: #fff; color: #999; width: 38px; border-left: 1px solid #BDD07E; border-right: 1px solid #BDD07E; border-bottom: 1px solid #BDD07E; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; font-weight: normal; }
 
 .p-con { border-top: solid 1px #dbdbdb; }
-.p-con p { line-height: 20px; padding: 5px 0; margin: 5px 0; }
+.p-con p { line-height: 22px; padding: 5px 0; margin: 5px 0; }
 .p-con ol { list-style: decimal inside; }
 .p-con ol { padding: 10px 0 10px 25px; margin: 0; }
-.p-con ol li { line-height: 20px; padding: 2px 0 2px 0; }
+.p-con ol li { line-height: 22px; padding: 2px 0 2px 0; }
 .p-con ul { padding: 10px 0 10px 20px; margin: 0; }
 .p-con ul li { line-height: 20px; padding: 2px 0 2px 13px; list-style-type: none; background: url("images/p-con-li.png") no-repeat left 1px; color:#666; }
 .p-con blockquote { font: italic 14px/19px Georgia, "Times New Roman", Times, serif; padding: 10px 20px; margin: 10px 0; background: #ecf6f8; }
