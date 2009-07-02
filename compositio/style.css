@@ -263,13 +263,6 @@ h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif; }
 
 .SR .widget_search #s { width: 160px; border: solid 1px #b5d6cd; padding: 3px; margin-bottom: 5px;}
 
-.SR .widget_flickrRSS { overflow: hidden; padding: 15px 0px 15px 15px;}
-/**/ *html .SR .widget_flickrRSS { height: 1%;} /**/ 
-.SR .widget_flickrRSS h3 { width: 270px; margin-bottom: 10px;}
-.SR .widget_flickrRSS ul { float: left;}
-.SR .widget_flickrRSS li { background: none; list-style-type: none; display: inline; padding: 0px; float: left; margin: 0px 7px 7px 0px;}
-.SR .widget_flickrRSS li a img, .SR .widget_flickrRSS li a:visited img { border: solid 1px #fff; width: 60px; height: 60px;}
-.SR .widget_flickrRSS li a:hover img { border: solid 1px #000;}
 
 
 /* Footer ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

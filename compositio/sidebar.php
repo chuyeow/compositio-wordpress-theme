@@ -24,18 +24,6 @@
 <!-- End About This Blog -->
 
 
-<div class="photostream">
-<h3>Photostream</h3>
-<!-- Start Flickr Photostream -->
-<?php if (function_exists('get_flickrrss')) { ?>
-  <ul>
-   <?php get_flickrrss(); ?> 
-  </ul>
-<?php } ?>
-<!-- End Flickr Photostream -->
-</div>
-
-
 <div class="categs">
   <div> 
 	<h3>Categories</h3> 
