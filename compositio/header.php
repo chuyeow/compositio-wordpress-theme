@@ -30,29 +30,16 @@
 <!-- Start BG -->
 <div id="bg"><div id="bg-all">
 
-
-<div class="menu">
-   <ul>
-   <li<?php if ( is_front_page() ) echo ' class="current_page_item"'; ?>><a href="<?php echo get_option('home'); ?>/"><span>Home</span></a></li>
-<?php $pages = wp_list_pages('sort_column=menu_order&title_li=&echo=0');
-$pages = preg_replace('%<a ([^>]+)>%U','<a $1><span>', $pages);
-$pages = str_replace('</a>','</span></a>', $pages);
-echo $pages; ?>
-  </ul>
-<? unset($pages); ?> 
-</div>
- 
-
 <!-- Start Container -->
 <div class="container">
 
 <!-- Start Header -->
 <div class="logo">
  <?php
-	if ( get_option('evidens_header') == 'logo' ) 
-	{ include (TEMPLATEPATH . "/logo-img.php");	}
-	else
-	{ include (TEMPLATEPATH . "/logo-txt.php"); }
+  if ( get_option('evidens_header') == 'logo' ) 
+  { include (TEMPLATEPATH . "/logo-img.php"); }
+  else
+  { include (TEMPLATEPATH . "/logo-txt.php"); }
   ?>
 </div>
 <!-- END Header -->

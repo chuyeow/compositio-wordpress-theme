@@ -29,7 +29,7 @@ a:focus { outline: none; outline: 0; }
 
 /* BG
 ############################################################################################################## */
-#bg { width: 980px; margin: 0 auto; margin-top: 30px; }
+#bg { width: 980px; margin: 0 auto; }
 #bg-all { width: 980px; background: #fff; overflow: hidden; }
 /**/ * html #bg-all { height: 1%; } /* */
 
@@ -37,18 +37,6 @@ a:focus { outline: none; outline: 0; }
 ############################################################################################################## */
 .container { padding: 30px; float: left; width: 590px; }
 
-
-.menu { overflow: hidden; float: left; width: 100%; background: #eff7d4; width: 980px; margin: 0 auto; padding: 8px 0 0 100px; }
-/**/ * html .menu { height: 1%; } /* */
-.menu ul { float:left; }
-.menu li { display: inline; font-size: 14px; float: left; }
-.menu li ul li { font-weight: normal; letter-spacing: normal; }
-.menu li a, .menu li a:visited { color: #6F850D; float: left; padding: 4px 8px; margin-right: 5px; font-weight: bold; }
-.menu li a:hover { background: #fff; color:#8FA52D; text-decoration: none; }
-.menu .current_page_item a, .menu .current_page_item a:visited, .menu .current_page_item a:hover { background: #8FA52D; color: #fff; text-shadow: 0 1px 1px #666; }
-
-.menu .current_page_item .page_item a, .menu .current_page_item .page_item a:visited { background: #def1f9; color:#272d36; }
-.menu .current_page_item .page_item a:hover { background: #fff; color:#8FA52D; }
 
 /* Logo
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -194,21 +182,24 @@ a:focus { outline: none; outline: 0; }
 .SR .syn li a:visited { color: #c45; }
 .SR .syn li a:hover { color:#333; text-decoration: none}
 
-/* About Blog
+/* Menu
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
- .SR .about { display: none; background-color: #eee; margin: 0 0 8px; padding: 20px 15px 15px 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; color:#fff;}
- .SR .about h3 { font-size: 24px; letter-spacing: -1px; color:#8FA52D;}
- .SR .about p { padding: 5px 0; margin: 0; font-size: 13px; line-height: 16px;}
+.SR .menu { background: #fff; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
+
+.SR .menu h3 { font-size: 20px; line-height: 20px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
+.SR .menu li { list-style-type: none; font-size: 14px; }
+.SR .menu a, .SR .menu div a:visited { display: block; padding: 3px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.SR .menu a:hover { background-color: #c45; color: #fff; text-decoration: none; }
 
 
 /* Categories + Archives
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
- .SR .categs { background: #fff; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px;}
- /**/ *html .SR .categs { height: 1%;} /**/
- .SR .categs h3 { font-size: 20px; line-height: 20px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
- .SR .categs li { list-style-type: none; font-size: 14px; }
- .SR .categs a, .SR .categs div a:visited { display: block; padding: 3px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
- .SR .categs a:hover { background-color: #c45; color: #fff; text-decoration: none; }
+.SR .categs { background: #fff; overflow: hidden; margin: 0 0 8px; padding: 15px; border-radius: 15px; -moz-border-radius: 15px; -webkit-border-radius: 15px; }
+/**/ *html .SR .categs { height: 1%;} /**/
+.SR .categs h3 { font-size: 20px; line-height: 20px; letter-spacing: -1px; color:#666; padding-bottom: 6px;}
+.SR .categs li { list-style-type: none; font-size: 14px; }
+.SR .categs a, .SR .categs div a:visited { display: block; padding: 3px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.SR .categs a:hover { background-color: #c45; color: #fff; text-decoration: none; }
 
 
 /* widget

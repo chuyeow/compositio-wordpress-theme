@@ -15,9 +15,16 @@
 </div>
 
 
-<div class="about">
-  <h3>About this blog</h3>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque sed felis. Aliquam sit amet felis. Mauris semper, velit semper laoreet dictum, quam diam dictum urna, nec placerat elit nisl in quam. Etiam augue pede, molestie eget, rhoncus at, convallis ut, eros. Aliquam pharetra.</p>
+<div class="menu">
+  <h3>Pages</h3>
+  <ul>
+    <li<?php if ( is_front_page() ) echo ' class="current_page_item"'; ?>><a href="<?php echo get_option('home'); ?>/"><span>Home</span></a></li>
+<?php $pages = wp_list_pages('sort_column=menu_order&title_li=&echo=0');
+$pages = preg_replace('%<a ([^>]+)>%U','<a $1><span>', $pages);
+$pages = str_replace('</a>','</span></a>', $pages);
+echo $pages; ?>
+  </ul>
+<? unset($pages); ?> 
 </div>
 
 
