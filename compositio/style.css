@@ -190,7 +190,7 @@ a:focus { outline: none; outline: 0; }
 .SR .menu li { list-style-type: none; font-size: 14px; }
 .SR .menu a, .SR .menu div a:visited { display: block; padding: 3px 6px; font-weight: bold; text-decoration: none; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
 .SR .menu a:hover { background-color: #c45; color: #fff; text-decoration: none; }
-.SR .menu a.feed:hover { :background-color: #eee; }
+.SR .menu a.feed:hover { background-color: #eee; }
 
 /* Categories + Archives
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
