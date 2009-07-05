@@ -25,7 +25,7 @@ $pages = str_replace('</a>','</span></a>', $pages);
 echo $pages; ?>
   </ul>
 <? unset($pages); ?> 
-  <p><a href="http://feeds.feedburner.com/riab"><img src="http://feeds.feedburner.com/~fc/riab?bg=cc4455&amp;fg=ffffff&amp;anim=0" height="26" width="88" alt="Subscribe to RSS feed" /></a></p>
+  <p><a href="http://feeds.feedburner.com/riab" class="feed"><img src="http://feeds.feedburner.com/~fc/riab?bg=cc4455&amp;fg=ffffff&amp;anim=0" height="26" width="88" alt="Subscribe to RSS feed" /></a></p>
 </div>
 
 
