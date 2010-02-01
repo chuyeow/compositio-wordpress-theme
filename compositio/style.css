@@ -241,6 +241,7 @@ padding:8px;
 }
 
 .code, code {
+color: #060;
 font-family: Monaco,"Courier New",monospace;
 font-size:12px;
 line-height:130%;
